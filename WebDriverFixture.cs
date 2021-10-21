@@ -12,7 +12,7 @@ public class WebDriverFixture : IDisposable
     public WebDriverFixture()
     {
         //WebDriverManager
-        ChromeDriver = new ChromeDriver();
+        ChromeDriver = new ChromeDriver(@"Chromedriver");
     }
 
     
