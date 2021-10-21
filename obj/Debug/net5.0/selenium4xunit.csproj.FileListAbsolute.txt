@@ -100,3 +100,6 @@ c:\Automation\selenium4xunit\obj\Debug\net5.0\ref\selenium4xunit.dll
 c:\Automation\selenium4xunit\obj\Debug\net5.0\selenium4xunit.csproj.AssemblyReference.cache
 C:\Automation\selenium4xunit\bin\Debug\net5.0\Chromedriver\chromedriver.exe
 C:\Automation\selenium4xunit\bin\Debug\net5.0\ref\selenium4xunit.dll
+C:\Automation\selenium4xunit\bin\Debug\net5.0\AngleSharp.dll
+C:\Automation\selenium4xunit\bin\Debug\net5.0\ICSharpCode.SharpZipLib.dll
+C:\Automation\selenium4xunit\bin\Debug\net5.0\WebDriverManager.dll

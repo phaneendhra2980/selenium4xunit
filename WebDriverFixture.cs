@@ -1,6 +1,8 @@
 using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using WebDriverManager;
+using WebDriverManager.DriverConfigs.Impl;
 
 /// <summary>
 /// WebDriverFixture code for XUnit to handle
@@ -12,7 +14,8 @@ public class WebDriverFixture : IDisposable
     public WebDriverFixture()
     {
         //WebDriverManager
-        ChromeDriver = new ChromeDriver(@"Chromedriver");
+        var driver = new DriverManager().SetUpDriver(new ChromeConfig());
+        ChromeDriver = new ChromeDriver();
     }
 
     
