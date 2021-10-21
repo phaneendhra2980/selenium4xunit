@@ -1,10 +1,11 @@
+using System;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace selenium4xunit;
+
+
 
 public class Selenium4UnitTest : IClassFixture<WebDriverFixture>
 {
@@ -22,7 +23,7 @@ public class Selenium4UnitTest : IClassFixture<WebDriverFixture>
     {
         WebDriverWait wait = new WebDriverWait(webDriverFixture.ChromeDriver, TimeSpan.FromSeconds(10));
         webDriverFixture.ChromeDriver.Navigate().GoToUrl("https://www.google.com/");
-        testOutputHelper.WriteLine("Opened Google Page");
+        //testOutputHelper.WriteLine("Opened Google Page");
         webDriverFixture.ChromeDriver.Manage().Window.Maximize();
         IWebElement agreebutton = webDriverFixture.ChromeDriver.FindElement(By.Id("L2AGLb"));
         //Utility.CaptureScreenshot(webDriverFixture.ChromeDriver);
@@ -37,8 +38,10 @@ public class Selenium4UnitTest : IClassFixture<WebDriverFixture>
     }
 
 
-    [Theory]    
+    [Theory]
     [InlineData("csharp")]
+    [InlineData("Selenium")]
+    [InlineData("Python")]
     public void Test_with_Theory_DataDriven(string value)
     {
         WebDriverWait wait = new WebDriverWait(webDriverFixture.ChromeDriver, TimeSpan.FromSeconds(10));

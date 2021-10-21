@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Automation\\selenium4xunit\\selenium4xunit.csproj": {}
+    "C:\\Automation\\selenium4xunit\\selenium4xunit.csproj": {}
   },
   "projects": {
-    "c:\\Automation\\selenium4xunit\\selenium4xunit.csproj": {
+    "C:\\Automation\\selenium4xunit\\selenium4xunit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Automation\\selenium4xunit\\selenium4xunit.csproj",
+        "projectUniqueName": "C:\\Automation\\selenium4xunit\\selenium4xunit.csproj",
         "projectName": "selenium4xunit",
-        "projectPath": "c:\\Automation\\selenium4xunit\\selenium4xunit.csproj",
+        "projectPath": "C:\\Automation\\selenium4xunit\\selenium4xunit.csproj",
         "packagesPath": "C:\\Users\\pkumar159\\.nuget\\packages\\",
-        "outputPath": "c:\\Automation\\selenium4xunit\\obj\\",
+        "outputPath": "C:\\Automation\\selenium4xunit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
